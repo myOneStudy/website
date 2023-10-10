@@ -9,7 +9,7 @@ import Script from 'next/script'
 import Head from 'next/head'
 import { Analytics } from '@vercel/analytics/react';
 
-const GTM_ID = 'GTM-8EWQSRB8MD';
+const GTM_ID = 'GTM-ML2THLLT';
 
 const inter = Inter({
   subsets: ['latin'],
