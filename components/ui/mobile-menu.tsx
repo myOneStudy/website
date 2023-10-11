@@ -67,9 +67,9 @@ export default function MobileMenu() {
           <li>
               <a href="/pricing" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Pricing</a>
             </li>
-            {/* <li>
+            <li>
               <a href="https://app.onestudy.io/sign-in" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Sign in</a>
-            </li> */}
+            </li>
             <li>
               <a href="https://app.onestudy.io/referral" className="btn-sm text-white bg-[#6C48FF] hover:bg-[#483285] w-full my-2" onClick={() => setMobileNavOpen(false)}>
                 <span>Sign up</span>
