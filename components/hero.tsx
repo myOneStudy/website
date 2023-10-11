@@ -38,7 +38,7 @@ export default function Hero() {
               <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Turn your lectures into flashcards at the click of a button, like magic.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/referral">Start free trial</a>
+                  <a className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/referral">Get started</a>
                 </div>
                 <div>
                   <a className="btn text-purple font-bold border-purple-400 hover:bg-[#EDE9FE] sm:ml-4" href="https://www.notion.so/one-study/Help-Center-228b0bb8fbb543c88c2cb7c3672cfcd6">Learn more</a>
