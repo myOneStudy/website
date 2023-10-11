@@ -39,9 +39,9 @@ export default function Header() {
               <li>
                 <a href="/pricing" className="font-medium text-gray-1000 hover:text-purple px-5 py-3 flex items-center transition duration-150 ease-in-out mr-2">Pricing</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://app.onestudy.io/sign-in" className="font-medium text-gray-1000 hover:text-purple px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://app.onestudy.io/referral" className="btn-sm text-white bg-[#6C48FF] hover:bg-[#483285] ml-3">
                   <span>Sign up</span>
