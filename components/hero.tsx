@@ -30,12 +30,12 @@ export default function Hero() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
-              More than flashcards. <br />
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">Your comprehensive study companion.
+              Anki {" "}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">Reimagined
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Instantly turn your notes and lectures into personalized study materials at the click of a button, all within minutes.</p>
+              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Turn your lectures into flashcards at the click of a button, like magic.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/referral">Start free trial</a>
