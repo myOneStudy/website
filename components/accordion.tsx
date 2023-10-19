@@ -81,7 +81,7 @@ export default function Accordion() {
         <hr />
         <FAQItem
           question="What's the process for generating multiple choice questions?"
-          answer="OneStudy handles the automatic creation of multiple choice questions for each text flashcard. Once you've created the text flashcard, there's no additional action required on your part."
+          answer="When you create a deck automatically, OneStudy will create multiple choice questions for each text flashcard with no action required on your part. Multiple choice questions are not created for image occlusion cards nor manually-created text flashcards."
         />
         <hr />
         <FAQItem
