@@ -31,8 +31,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Effortless flashcard creation</h4>
-              <p className="text-gray-1000 text-base text-center">Automatically transform your files into flashcards and image occlusion cards with the click of a button.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Flashcard creation</h4>
+              <p className="text-gray-1000 text-base text-center">Automatically transform your files into text flashcards and image occlusion cards with the click of a button.</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +47,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Semantic analysis</h4>
-              <p className="text-gray-1000 text-base text-center">Type your answers, and we'll evaluate your comprehension beyond just rote memorization.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Clean interface</h4>
+              <p className="text-gray-1000 text-base text-center">Study using our modern, simple, and beautiful interface designed to make studying enjoyable.</p>
             </div>
 
             {/* 3rd item */}
@@ -64,7 +64,7 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Adaptive questioning</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Multiple choice questions</h4>
               <p className="text-gray-1000 text-base text-center">Each flashcard is intelligently converted into multiple-choice questions, providing alternative ways to study.</p>
             </div>
 
