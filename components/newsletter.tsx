@@ -37,13 +37,13 @@ export default function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">OneStudy is invite only 👋</h3>
-                <p className="text-gray-300 text-lg mb-6">If you don't have an invite, no worries! You can get access by completing this 3 question form. We'll send you a code asap!</p>
+                <h3 className="h3 text-white mb-2">We'll create your first deck for free 👋</h3>
+                <p className="text-gray-300 text-lg mb-6">We know you're busy, so we want to make it easy for you to see the power of OneStudy! After signing up, simply send us your file, and we'll handle the rest.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-start max-w-xs mx-auto sm:max-w-md lg:mx-0">                    
-                    <a className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285]" href="https://airtable.com/appO1mc9vvdUlkYcZ/shrNNTmlig7aY8oRU">Get early access</a>
+                    <a className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285]" href="https://airtable.com/appO1mc9vvdUlkYcZ/shrNNTmlig7aY8oRU">Get free deck</a>
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
