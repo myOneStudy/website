@@ -1,8 +1,8 @@
 import Pricing from "@/components/pricing";
 
 export const metadata = {
-    title: 'Terms and Conditions | OneStudy.io',
-    description: 'Review the terms and conditions of OneStudy.io. Understand our policies and guidelines for a secure and transparent experience.',
+    title: 'Pricing | OneStudy.io',
+    description: 'Explore OneStudy.io pricing and choose the perfect plan for your needs.',
   }
 
 export default function PricingPage() {
