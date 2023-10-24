@@ -38,7 +38,7 @@ export default function Hero() {
               <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">With OneStudy, effortlessly transform your files into everything from personalized flashcards to multiple choice questions. Purpose-built for busy students.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn bg-purple-400 text-white font-bold rounded mb-6 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/sign-up">
+                  <a className="btn bg-purple-400 text-white font-bold rounded mb-6 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/sign-up" data-test-ide="sign-up-hero">
                     <span>Get started</span>
                     <svg className="w-3 h-3 fill-current text-white-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />

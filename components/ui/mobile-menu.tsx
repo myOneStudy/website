@@ -65,13 +65,13 @@ export default function MobileMenu() {
         >
           <ul className="px-5 py-2">
           <li>
-              <a href="/pricing" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Pricing</a>
+              <a href="/pricing" data-test-id="pricing-mobile-menu" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Pricing</a>
             </li>
             <li>
-              <a href="https://app.onestudy.io/sign-in" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Sign in</a>
+              <a href="https://app.onestudy.io/sign-in" data-test-id="sign-in-mobile-menu" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Sign in</a>
             </li>
             <li>
-              <a href="https://app.onestudy.io/sign-up" className="btn-sm text-white bg-[#6C48FF] hover:bg-[#483285] w-full my-2" onClick={() => setMobileNavOpen(false)}>
+              <a href="https://app.onestudy.io/sign-up" data-test-id="sign-up-mobile-menu" className="btn-sm text-white bg-[#6C48FF] hover:bg-[#483285] w-full my-2" onClick={() => setMobileNavOpen(false)}>
                 <span>Sign up</span>
                 <svg className="w-3 h-3 fill-white text-white shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                   <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fill="#999" fillRule="nonzero" />
