@@ -59,7 +59,7 @@ export default function Pricing() {
                     <span className="text-md md:text-lg text-base">Unlimited deck sharing</span>
                   </li>
                 </ul>
-                <a href="https://app.onestudy.io/sign-up" className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285]">Start Free Trial</a>
+                <a href="https://app.onestudy.io/sign-up" data-test-id="sign-up-pricing-page" className="btn bg-purple-400 text-white font-bold rounded mb-2 focus:outline-none hover:bg-[#483285]">Start Free Trial</a>
               </div>
   
               
