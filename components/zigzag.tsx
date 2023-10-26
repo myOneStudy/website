@@ -12,7 +12,7 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4">Ditch outdated decks. Transform your materials into flashcards.</h1>
+            <h2 className="h2 font-semibold text-gray-1000 mb-4">Ditch outdated decks. Transform your materials into flashcards.</h2>
             <p className="text-md md:text-xl text-gray-1000">You're busy. So we made it super simple.</p>
           </div>
 
