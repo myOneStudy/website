@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Home - Open PRO',
-    description: 'Page description',
+    title: 'OneStudy.io',
+    description: 'Say goodbye to outdated flashcards for good.',
   }
   
   import Hero from '@/components/od-hero'
