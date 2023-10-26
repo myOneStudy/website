@@ -29,13 +29,14 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
+          <div className="inline-flex text-sm font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">We'll create your first deck for free!</div>
             <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
-                Never deal with outdated flashcards  {" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">again.
+                Say goodbye to outdated flashcards  <br />
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">for good.
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Automatically convert your documents, such as lecture notes, into flashcards with OneStudy.</p>
+              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Automatically convert your documents, such as lecture notes and powerpoints, into flashcards.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn bg-purple-400 text-white font-bold rounded mb-6 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/sign-up" data-test-id="sign-up-hero">
@@ -45,9 +46,6 @@ export default function Hero() {
                     </svg>
                   </a>
                 </div>                
-              </div>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <p className="text-xxs font-medium md:text-xs text-gray-1000 uppercase">We'll create your first deck for free!</p>
               </div>              
             </div>
           </div>

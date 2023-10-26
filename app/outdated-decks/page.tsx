@@ -8,14 +8,15 @@ export const metadata = {
   import Newsletter from '@/components/newsletter'
   import Zigzag from '@/components/zigzag'
   import Testimonials from '@/components/od-testimonials'
+import FeaturesBlocks from '@/components/features-blocks'
   
   export default function Home() {
     return (
       <>
         <Hero />
         <Zigzag />
-        <Features />
-        <Testimonials />
+        <FeaturesBlocks />
+        
         <Newsletter />
       </>
     )
