@@ -38,7 +38,7 @@ export default function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">We'll create your first deck for free 👋</h3>
-                <p className="text-gray-300 text-lg mb-6">We know you're busy, so we want to make it easy for you to see the power of OneStudy! After signing up, simply send us your file, and we'll handle the rest.</p>
+                <p className="text-gray-300 text-lg mb-6">We know you're busy, so we want to make it easy for you to see the power of OneStudy! After signing up, simply send us your document, and we'll handle the rest.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
