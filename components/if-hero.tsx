@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
           <div className="inline-flex text-sm font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">We'll create your first deck for free!</div>
             <h1 className="text-3xl md:text-5xl bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000 font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
-                Never waste hours creating Anki decks again.              
+                Never waste hours creating flashcards again.              
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Instantly convert your course materials into text, image, and multiple flashcards with the click of a button.</p>

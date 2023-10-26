@@ -1,6 +1,6 @@
 export const metadata = {
     title: 'OneStudy.io',
-    description: 'Say goodbye to outdated flashcards for good.',
+    description: 'Never waste hours creating flashcards again.',
   }
   
   import Hero from '@/components/if-hero'
