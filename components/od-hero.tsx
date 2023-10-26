@@ -1,5 +1,5 @@
 import VideoThumb from '@/public/images/OneStudy-hero.svg'
-import ModalVideo from '@/components/modal-video'
+import ModalVideo from '@/components/od-modal-video'
 
 export default function Hero() {
   return (
@@ -30,12 +30,12 @@ export default function Hero() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
-              Study better with {" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">OneStudy
+                Never deal with outdated flashcards  {" "}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">again.
               </span>
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">With OneStudy, effortlessly transform your files into everything from personalized flashcards to multiple choice questions. Purpose-built for busy students.</p>
+              <p className="text-md md:text-xl text-gray-1000 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Automatically convert your documents, such as lecture notes, into flashcards with OneStudy.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn bg-purple-400 text-white font-bold rounded mb-6 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/sign-up" data-test-id="sign-up-hero">
@@ -51,6 +51,16 @@ export default function Hero() {
               </div>              
             </div>
           </div>
+
+          {/* Hero image */}
+          <ModalVideo
+            thumb={VideoThumb}
+            thumbWidth={768}
+            thumbHeight={432}
+            thumbAlt="Modal video thumbnail"
+            video="/videos/video.mp4"
+            videoWidth={1920}
+            videoHeight={1080} />
 
         </div>
 

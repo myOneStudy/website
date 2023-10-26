@@ -3,11 +3,11 @@ export const metadata = {
     description: 'Page description',
   }
   
-  import Hero from '@/components/af-hero'
-  import Features from '@/components/af-features'
+  import Hero from '@/components/od-hero'
+  import Features from '@/components/od-features'
   import Newsletter from '@/components/newsletter'
   import Zigzag from '@/components/zigzag'
-  import Testimonials from '@/components/af-testimonials'
+  import Testimonials from '@/components/od-testimonials'
   
   export default function Home() {
     return (
