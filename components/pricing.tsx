@@ -26,7 +26,7 @@ export default function Pricing() {
                 <h3 className="mb-4 text-2xl md:text-3xl font-semibold">Monthly Plan</h3>
                 <p className="text-gray-1000 md:text-lg font-light dark:text-gray-1000 text-md">7-day free trial. 30-day money-back guarantee. No credit card required.</p>
                 <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-2xl md:text-4xl text-purple font-bold">$14.99</span>
+                  <span className="mr-2 text-2xl md:text-4xl text-purple font-bold">$9.99</span>
                   <span className="text-purple text-2xl md:text-4xl dark:text-purple">/month</span>
                 </div>
                 <ul role="list" className="mb-8 space-y-4 text-left">
