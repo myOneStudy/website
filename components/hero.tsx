@@ -25,11 +25,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-28 pb-12 md:pt-32 md:pb-20">
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-          <div className="inline-flex text-sm font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">We'll create your first deck for free!</div>
+          <div className="inline-flex text-sm md:text-md font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">🎉 We'll create your first deck for free!</div>
             <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
               Study better with {" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">OneStudy
