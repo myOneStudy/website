@@ -25,11 +25,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-28 pb-12 md:pt-32 md:pb-20">
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-          <div className="inline-flex text-sm font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">We'll create your first deck for free!</div>
+          <div className="inline-flex text-sm md:text-md font-bold py-1 px-3 m-2 text-blue bg-[#cadffe] rounded-full mb-6">🎉 We'll create your first deck for free!</div>
             <h1 className="text-3xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
               Study better with {" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">OneStudy
@@ -40,13 +40,16 @@ export default function Hero() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn bg-purple-400 text-white font-bold rounded mb-6 focus:outline-none hover:bg-[#483285] sm:w-auto" href="https://app.onestudy.io/sign-up" data-test-id="sign-up-hero">
-                    <span>Get started</span>
+                    <span>Start your free trial</span>
                     <svg className="w-3 h-3 fill-current text-white-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
                     </svg>
                   </a>
-                </div>                
-              </div>             
+                </div>               
+              </div>
+              <div className="max-w-xs mx-auto sm:max-w-none -mt-4 sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+                  <p className="text-xxs font-medium md:text-xs text-gray-1000 uppercase">(No credit card required)</p>
+              </div>              
             </div>
           </div>
 

@@ -32,7 +32,7 @@ export default function ModalVideo({
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
           <div className="flex flex-col justify-center">
-            <img src ="/images/OneStudy-hero.png" alt={thumbAlt} width={thumbWidth} height={thumbHeight} className="w-full" />
+            <img src ="/images/OneStudy-Herov2.png" alt={thumbAlt} width={thumbWidth} height={thumbHeight} className="w-full" />
           </div>
           <button data-test-id="demo-video" className="absolute top-full flex border border-blue-1000 items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg hover:bg-blue-100" onClick={() => { setModalOpen(true) }}>
             <svg className="w-6 h-6 fill-current text-blue group-hover:text-blue-600 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
