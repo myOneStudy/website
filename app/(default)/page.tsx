@@ -9,13 +9,15 @@ import FeaturesBlocks from '@/components/features-blocks'
 import Testimonials from '@/components/testimonials'
 import Newsletter from '@/components/newsletter'
 import Accordion from '@/components/accordion'
+import Blog from '@/components/blog'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <FeaturesBlocks />      
+      <FeaturesBlocks />
+      <Blog/>      
       <Newsletter />
       <Accordion />
     </>
