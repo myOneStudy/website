@@ -32,7 +32,7 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Flashcard creation</h4>
-              <p className="text-gray-1000 text-base text-center">Automatically transform your files into text flashcards and image occlusion cards with the click of a button.</p>
+              <p className="text-gray-1000 text-base text-center">Automatically transform your course material into text, image occlusion, and multiple choice flashcards.</p>
             </div>
 
             {/* 2nd item */}
@@ -64,8 +64,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Multiple choice questions</h4>
-              <p className="text-gray-1000 text-base text-center">Each flashcard is intelligently converted into multiple-choice questions, providing alternative ways to study.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Active recall</h4>
+              <p className="text-gray-1000 text-base text-center">Stay engaged while studying by entering your answers into our semantic analysis tool that evaluates your understanding.</p>
             </div>
 
             {/* 4th item */}
