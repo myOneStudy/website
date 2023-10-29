@@ -63,7 +63,7 @@ export default function Zigzag() {
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter text-md text-purple font-semibold mb-2">Step 2</div>
                   <h3 className="h3 text-gray font-semibold mb-3">Automatically create your deck with just a click</h3>
-                  <p className="text-lg text-gray-1000 mb-4">With the click of a button, OneStudy will create a variety of custom study materials using your content.</p>
+                  <p className="text-lg text-gray-1000 mb-4">With the click of a button, OneStudy creates a variety of custom study materials using the content of your documents.</p>
                   <ul className="text-lg text-gray-1000 mb-4 md:-mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-blue mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
