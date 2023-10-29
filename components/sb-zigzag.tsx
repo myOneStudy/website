@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import FeatImage01 from '@/public/images/OneStudy-upload.png'
+import FeatImage01 from '@/public/images/Onestudy-upload-v2.png'
 import FeatImage02 from '@/public/images/OneStudy-PDF-conversion.png'
 import FeatImage03 from '@/public/images/OneStudy-study-page.png'
 
@@ -12,8 +12,8 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 font-semibold text-gray-1000 mb-4">Discover what OneStudy has to offer.</h2>
-            <p className="text-md md:text-xl text-gray-1000">Get the best of Anki and Quizlet - but even better with more features.</p>
+            <h2 className="h2 font-semibold text-gray-1000 mb-4">Discover what OneStudy has to offer</h2>
+            <p className="text-md md:text-xl text-gray-1000">Get the best of Anki and Quizlet - but <strong>automated</strong>, <strong>simplified</strong>, and <strong>enhanced</strong>.</p>
           </div>
 
           {/* Items */}
@@ -32,26 +32,26 @@ export default function Zigzag() {
                       <svg className="w-3 h-3 fill-current text-blue mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Multiple file types supported</span>
+                      <span>Processes text and images</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-blue mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Unlimited uploads</span>
+                      <span>Multiple file types supported</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-blue mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Unlimited flashcards</span>
+                      <span>Unlimited uploads</span>
                     </li>
                   </ul>
                 </div>
               </div>
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 sm:mt-4 md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage01} width={540} height={405} alt="OneStudy Features 01" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={FeatImage01} width={540} height={405} alt="OneStudy Features 01" />
               </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function Zigzag() {
               </div>
                {/* Image */}
                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl md:order-1" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 02" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={FeatImage02} width={540} height={405} alt="Features 02" />
               </div>
             </div>
 
@@ -126,7 +126,7 @@ export default function Zigzag() {
               </div>
                {/* Image */}
                <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 sm:order-2" data-aos="fade-up">
-                <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width={540} height={405} alt="OneStudy Features 03" />
+                <Image className="max-w-full mx-auto md:max-w-none h-auto rounded-lg" src={FeatImage03} width={540} height={405} alt="OneStudy Features 03" />
               </div>
             </div>
 
