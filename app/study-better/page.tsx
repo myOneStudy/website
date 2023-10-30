@@ -4,11 +4,12 @@ export const metadata = {
   }
   
   import Hero from '@/components/sb-hero'
-  import Features from '@/components/od-features'
   import Newsletter from '@/components/newsletter'
   import Zigzag from '@/components/sb-zigzag'
   import Testimonials from '@/components/od-testimonials'
-import FeaturesBlocks from '@/components/features-blocks'
+  import FeaturesBlocks from '@/components/features-blocks'
+  import Recall from '@/components/recall'
+
   
   export default function Home() {
     return (

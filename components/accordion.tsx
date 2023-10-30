@@ -70,6 +70,16 @@ export default function Accordion() {
       <div className="w-full max-w-2xl mx-auto px-4 md:px-6 py-2">
         <h1 className="h3 text-gray-1000 font-semibold mb-4">Frequently asked questions</h1>
         <FAQItem
+          question="Can I try OneStudy before paying?"
+          answer="Absolutely! We're confident you'll enjoy OneStudy, which is why we offer an unrestricted 7-day trial. Additionally, upon subscribing, we provide a 30-day money-back guarantee to further your peace of mind."
+        />
+        <hr />
+        <FAQItem
+          question="How is OneStudy different from Anki, Quizlet, and other study tools?"
+          answer="OneStudy enables you to create high-quality, personalized study materials quickly but also leverage active recall with dynamic phrasing of flashcards for a comprehensive learning experience. Say goodbye to outdated and subpar study decks, as OneStudy seamlessly integrates your own content into your study materials (e.g. lectures, research papers, etc.). <br /> <br /> Even in cases where Anki decks are outdated or missing, OneStudy ensures your study approach remains intact by allowing fast and efficient deck creation, perfectly suited to your busy schedule."
+        />
+        <hr />
+        <FAQItem
           question="What file formats can I use with OneStudy?"
           answer="At the moment, OneStudy is compatible with PDFs. You can easily convert alternate file formats like PowerPoint or Word documents into PDFs for use with OneStudy. We will be expanding our support for additional file types in the near future."
         />
@@ -80,13 +90,8 @@ export default function Accordion() {
         />
         <hr />
         <FAQItem
-          question="What's the process for generating multiple choice questions?"
+          question="What's the process for generating multiple choice flashcards?"
           answer="When you create a deck automatically, OneStudy will create multiple choice questions for each text flashcard with no action required on your part. Multiple choice questions are not created for image occlusion cards nor manually-created text flashcards."
-        />
-        <hr />
-        <FAQItem
-          question="How is OneStudy different from Anki, Quizlet, and other study tools?"
-          answer="OneStudy enables you to create high-quality, personalized study materials quickly but also automatically generates multiple choice questions for a comprehensive learning experience. Say goodbye to outdated and subpar study decks, as OneStudy seamlessly integrates your own content into your study materials (e.g. lectures, research papers, etc.). <br /> <br /> Even in cases where Anki decks are outdated or missing, OneStudy ensures your study approach remains intact by allowing fast and efficient deck creation, perfectly suited to your busy schedule."
         />
         <hr />
         <FAQItem
@@ -95,8 +100,8 @@ export default function Accordion() {
         />
         <hr />
         <FAQItem
-          question="Can I try OneStudy before paying?"
-          answer="Absolutely! We're confident you'll enjoy OneStudy, which is why we offer an unrestricted 7-day trial. Additionally, upon subscribing, we provide a 30-day money-back guarantee to further your peace of mind."
+          question="Can I customize my space repetition intervals?"
+          answer="Absolutely, the spaced repetition intervals are completely customizable."
         />
         <hr />
         <FAQItem
