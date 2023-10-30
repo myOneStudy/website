@@ -19,7 +19,7 @@ export default function Recall() {
           </a>
         </div>
         <Image
-          src="/path-to-your-image/dashboard-image-dark.jpg"
+          src="/videos/typewriter_dynamic_cards_video_v2.gif"
           alt="dashboard image"
           width={1000}
           height={750}
