@@ -24,7 +24,10 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a href="/pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>              
+              </li>
+              <li className="mb-2">
+                <a href="mailto:marshall@onestudy.io" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Contact</a>
+              </li>               
             </ul>
           </div>
 
