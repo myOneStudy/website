@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="pt-28 pb-12 md:pt-24 md:pb-10">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="text-4xl md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
+            <h1 className="h1 md:text-5xl font-semibold leading-tighter tracking-tighter text-gray-1000 mb-4" data-aos="zoom-y-out">
               Train {" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-1000">recall. {" "}
               </span>
@@ -15,7 +15,7 @@ export default function Hero() {
             Test your comprehension with flashcards that adapt their wording during review. Type your responses, and we'll gauge your understanding. Generate flashcards from any content.
             </p>
             <div className="mb-6">
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start" data-aos="zoom-y-out">
                 <a href="https://app.onestudy.io/sign-up" className="btn bg-purple-400 text-white font-bold rounded focus:outline-none hover:bg-[#483285] sm:w-auto">
                   Start free trial
                   <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -26,8 +26,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="/images/sb-hero-image.png" alt="mockup" className="max-w-4xl" />
+          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex" data-aos="zoom-y-out" data-aos-delay="150">
+            <img src="/images/sb-hero-image.png" alt="mockup" className="max-w-4xl"/>
           </div>
         </div>
       </div>
